@@ -38,3 +38,18 @@ To effectively meet our business goals and cater to the needs of our users, I ha
 *Who We Are Page*: The ‘Who We Are’ page starts with a consistent header image, maintaining the website’s visual theme. This page focuses on introducing the team, featuring photos and bios of key personnel, and adding a personal and credible touch to the brand. The company’s vision and values are also highlighted, further establishing the corporate identity. The footer, aligned with other pages, combines social media links with contact information, facilitating accessible communication.
 
 *Contact Us Page*: Designed for direct user interaction, the ‘Contact Us’ page features a straightforward layout with a header image in line with the site’s theme. Central to this page is a contact form complemented by the company’s address, contact number, and an integrated Google Maps location. The footer, uniform across the site, includes contact details and social media links, providing users with multiple channels to contact Business Travel.
+
+### Technoligy used
+
+HTML5 / CSS3
+
+Bootstrap V5
+
+Chat GPT to help troubleshoot and learn why things were behaving in a certain way.
+
+### Issues
+
+Creating the fade on the heror image. I used Linear Gradient which I learnt when I first started learn about CSS with [Free Code Camp](https://www.freecodecamp.org/).
+I had to troubleshoot because my text was also being faded out and I used chat GPT which I found I needed to add a z-index to my css.
+
+After adding the nav menu, the image moved down but the fade didn't. I used google dev tool and played with margins and padding but it didn't work. Asked chat GPT and learned that I needed to adjust the .hero-img::before top proprty to aline again.
