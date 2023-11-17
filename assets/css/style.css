@@ -22,6 +22,11 @@
     letter-spacing: 2px;
 }
 
+.logo-section {
+    padding-top: 8px;
+}
+
+
 .nav-menu {
     padding: 4px;
     background-color: #2f4858;
@@ -32,6 +37,8 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #DDD0C8;
+    padding-top: 10px;
+
 }
 
 .hamburger-menu {
@@ -64,6 +71,7 @@
     position: relative;
     padding-top: 250px;
     z-index: 1;
+    color: #2f4858;
 }
 
 
@@ -73,6 +81,12 @@
     z-index: 1;
     color: #DDD0C8;
     background-color: #5A5E72;
+    border-color: #5A5E72;
+}
+
+.question-button:hover {
+    color: #2f4858;
+    border-color: #2f4858;
 }
 
 /*--------------------------------- Why Section */
@@ -81,14 +95,23 @@
     margin: 0;
 }
 
-.why-section h3 {
+.why-section h3,
+.why-section h5 {
     font-family: 'Bebas Neue', sans-serif;
+}
+
+.why-section h3,
+.why-section h5,
+.why-section p {
+    color: #2f4858;
+}
+
+.why-section h3 {
     font-size: 50px;
     letter-spacing: 2px;
 }
 
 .why-section h5 {
-    font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
     letter-spacing: 1px;
 }
@@ -98,6 +121,7 @@
     font-size: 15px;
 
 }
+
 
 /*--------------------------------- Footer */
 
@@ -124,18 +148,24 @@
     font-size: 15px;
 }
 
+.contact-hours-info {
+    padding-left: 30px;
+}
 
+.social-links {
+    padding-right: 30px;
+}
 
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 40px;
+    height: 40px;
+    padding: 16px 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 18px;
+    line-height: 8px;
     text-align: center;
-    color: #fafafa;
+    color: #2f4858;
     background: #DDD0C8;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -146,16 +176,20 @@
 
 .social-links .facebook-color:hover {
     background-color: #3b5998;
+    color: #DDD0C8
 }
 
 .social-links .linkedin-color:hover {
     background-color: #0077b5;
+    color: #DDD0C8
 }
 
 .social-links .instagram-color:hover {
     background: linear-gradient(45deg, #f09433 10%, #e6683c 35%, #dc2743 60%, #cc2366 85%, #bc1888 100%);
+    color: #DDD0C8
 }
 
 .social-links .youtube-color:hover {
     background-color: #c4302b;
+    color: #DDD0C8
 }
