@@ -14,21 +14,26 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/39153677d4.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>
       Hudson Business Travel | Navigating Your Corporate Travel World
     </title>
   </head>
+
   <body>
     <header>
       <div class="container-fluid">
         <div class="row">
           <!--navigation menu section -->
-          <nav class="navbar navbar-expand-lg nav-menu">
+          <nav class="navbar sticky-top navbar-expand-lg nav-menu">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Hudson Business Travel</a>
               <button
-                class="navbar-toggler"
+                class="navbar-toggler hamburger-menu"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNav"
@@ -36,26 +41,34 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon hamburger-menu"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div
+                class="collapse navbar-collapse justify-content-end"
+                id="navbarNav"
+              >
                 <ul class="navbar-nav justify-content-end">
                   <li class="nav-item menu-item">
-                    <a class="nav-link active" aria-current="page" href="#"
+                    <a
+                      class="nav-link menu-item active"
+                      aria-current="page"
+                      href="#"
                       >Home</a
                     >
                   </li>
                   <li class="nav-item menu-item">
-                    <a class="nav-link" href="#">What We Do</a>
+                    <a class="nav-link what-we-do" href="#">What We Do</a>
                   </li>
                   <li class="nav-item menu-item">
-                    <a class="nav-link" href="#">Sustainability</a>
+                    <a class="nav-link sustainability" href="#"
+                      >Sustainability</a
+                    >
                   </li>
-                  <li class="nav-item menu-item">
+                  <li class="nav-item who-are-we menu-item">
                     <a class="nav-link" href="#">Who Are We</a>
                   </li>
                   <li class="nav-item menu-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link contact-us" href="#">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -63,28 +76,85 @@
           </nav>
 
           <!--Hero Image-->
-          <div class="col hero-img">
-            <!--Question section-->
-            <h1 class="bebas-neue question-section d-flex align-items-center">
-              Looking for a new travel management company?
-            </h1>
-            <!--Button to contact us-->
-            <a
-              href="#"
-              class="btn btn-outline-dark btn-lg question-button"
-              type="button"
-              >Contact Us</a
-            >
+          <div class="row">
+            <div class="col hero-img">
+              <!--Question section-->
+              <h1 class="question-section text-end">
+                Looking for a new travel management company?
+              </h1>
+              <!--Button to contact us-->
+              <div class="div d-grid-2 d-md-flex justify-content-md-end">
+                <a
+                  href="#"
+                  class="btn btn-outline-dark btn-lg question-button bt-end"
+                  type="button"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </header>
-    <section></section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
   </body>
-  <footer></footer>
+  <footer>
+    <div class="container-fluid">
+      <div class="row" id="footer-details">
+        <div class="col contact-hours-info">
+          <h3>Contact Us</h3>
+          <p>Our office is open Monday to Friday from 8:00 to 18:00</p>
+          <p>24/7 emergency contact number <span>+44 (0) 20 3058 231</span></p>
+          <p>Email: action@hudsontravel.co.uk</p>
+        </div>
+
+        <div class="col d-flex justify-content-end align-items-center pt-4">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i
+                  class="fa-brands fa-facebook-f facebook-color"
+                  aria-hidden="true"
+                ></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i
+                  class="fa-brands fa-instagram instagram-color"
+                  aria-hidden="true"
+                ></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i
+                  class="fa-brands fa-linkedin linkedin-color"
+                  aria-hidden="true"
+                ></i>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank">
+                <i
+                  class="fa-brands fa-youtube youtube-color"
+                  aria-hidden="true"
+                ></i>
+                <span class="sr-only">YouTube</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>

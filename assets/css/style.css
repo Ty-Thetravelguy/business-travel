@@ -1,8 +1,5 @@
 /*--------------------------------- General */
 
-.bebas-neue {
-    font-family: "Bebas Neue", sans-serif;
-}
 
 /*--------------------------------- Colors */
 
@@ -24,16 +21,20 @@
 }
 
 
-.menu-item {
+.navbar-nav .nav-item a {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #DDD0C8;
 }
 
+.hamburger-menu {
+    background-color: #DDD0C8;
+}
+
 /*------------- Question Section ---------*/
 
 .hero-img {
-    background: url('../images/hero-home.jpg');
+    background: url('../images/hero-home-3.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,20 +47,84 @@
     top: 55px;
     left: 0;
     right: 0;
-    bottom: -55px;
-    background: linear-gradient(to left, #ffffff00, #DDD0C8);
+    bottom: -56px;
+    background: linear-gradient(to right, #ffffff00, #DDD0C8);
 }
 
 .question-section {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
     position: relative;
-    align-items: center;
-    justify-content: left;
     padding-top: 250px;
     z-index: 1;
 }
+
 
 .question-button {
     font-family: "Roboto", sans-serif;
     position: relative;
     z-index: 1;
+    color: #DDD0C8;
+    background-color: #5A5E72;
+}
+
+
+/*--------------------------------- Footer */
+
+#footer-details {
+    background-color: #2f4858;
+    padding: 30px 0 30px 0;
+}
+
+.contact-hours-info h3,
+.contact-hours-info p {
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: #DDD0C8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-hours-info h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+
+.contact-hours-info p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #DDD0C8;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.social-links .facebook-color:hover {
+    background-color: #3b5998;
+}
+
+.social-links .linkedin-color:hover {
+    background-color: #0077b5;
+}
+
+.social-links .instagram-color:hover {
+    background: linear-gradient(45deg, #f09433 10%, #e6683c 35%, #dc2743 60%, #cc2366 85%, #bc1888 100%);
+}
+
+.social-links .youtube-color:hover {
+    background-color: #c4302b;
 }
