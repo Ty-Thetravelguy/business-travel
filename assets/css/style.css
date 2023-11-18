@@ -47,6 +47,7 @@ body {
 /*------------- Question Section ---------*/
 
 .hero-img {
+    position: relative;
     background: url('../images/hero-home-3.jpeg');
     background-position: center;
     background-repeat: no-repeat;
@@ -57,18 +58,19 @@ body {
 .hero-img::before {
     content: '';
     position: absolute;
-    top: 55px;
+    top: 0px;
     left: 0;
     right: 0;
-    bottom: -74px;
+    bottom: 0;
     background: linear-gradient(to right, #ffffff00, #DDD0C8);
 }
 
 .question-section {
     font-family: "Bebas Neue", sans-serif;
     font-size: 60px;
-    position: relative;
-    padding-top: 250px;
+    position: absolute;
+    top: 20%;
+    right: 15px;
     z-index: 1;
     color: #2f4858;
 }
@@ -76,7 +78,9 @@ body {
 
 .question-button {
     font-family: "Roboto", sans-serif;
-    position: relative;
+    position: absolute;
+    top: calc(20% + 70px);
+    right: 15px;
     z-index: 1;
     color: #DDD0C8;
     background-color: #2f4858;
@@ -88,7 +92,7 @@ body {
     border-color: #2f4858;
 }
 
-/*--------------------------------- Why Section */
+/*-----------------Why Section----------------  */
 
 .why-section {
     margin: 0;
@@ -191,4 +195,102 @@ body {
 .social-links .youtube-color:hover {
     background-color: #c4302b;
     color: #DDD0C8
+}
+
+
+/*--------------------------------- Media queries */
+
+@media (max-width: 375px) {
+    .question-section {
+        font-size: 30px !important;
+        top: 20% !important;
+        right: 10px;
+    }
+
+    .question-button {
+        top: calc(20% + 75px) !important;
+        right: 10px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-item a {
+        font-size: 14px;
+    }
+
+    .logo-section {
+        font-size: 18px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        font-size: 24px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .hamburger-menu span {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-img {
+        height: 50vh;
+    }
+
+    .hero-img::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to right, #ffffff00, #DDD0C8);
+    }
+
+    .question-section {
+        font-size: 40px;
+        top: 10%;
+    }
+
+    .question-button {
+        top: calc(10% + 50px);
+        font-size: 15px;
+    }
+
+    .why-section h3 {
+        font-size: 40px;
+    }
+
+    .why-section h5 {
+        font-size: 30px;
+    }
+
+    .contact-hours-info p {
+        font-size: 10px;
+    }
+
+    #footer-details .social-icons {
+        justify-content: center;
+    }
+
+    .social-links {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .question-section {
+        top: 15%;
+    }
+
+    .question-button {
+        top: calc(15% + 70px);
+    }
 }
