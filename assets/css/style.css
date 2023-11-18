@@ -67,6 +67,8 @@ body {
 
 .question-container {
     position: absolute;
+    top: 25%;
+    right: 15px;
 }
 
 .question-section {
@@ -235,15 +237,13 @@ body {
         background: linear-gradient(to right, #ffffff00, #DDD0C8);
     }
 
-    .question-section {
-        font-size: 35px;
-        top: 20%;
-
-
+    .question-container {
+        top: 10%;
+        right: 15px;
     }
 
-    .question-button {
-        top: calc(20% + 90px);
+    .question-section {
+        font-size: 40px;
 
     }
 
@@ -273,13 +273,11 @@ body {
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-
-    .question-section {
-        top: 15%;
-    }
-
+@media (max-width: 425px) {
     .question-button {
-        top: calc(15% + 70px);
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: 0;
     }
 }

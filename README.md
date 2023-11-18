@@ -53,3 +53,5 @@ Creating the fade on the heror image. I used Linear Gradient which I learnt when
 I had to troubleshoot because my text was also being faded out and I used chat GPT which I found I needed to add a z-index to my css.
 
 After adding the nav menu, the image moved down but the fade didn't. I used google dev tool and played with margins and padding but it didn't work. Asked chat GPT and learned that I needed to adjust the .hero-img::before top proprty to aline again.
+
+I had massive issues with creating media queries. I really struggled to the content to look good on smaller screens, in particual with the question-section and question-button. The position on smaller screans were good on one size, and not great as it increased, or viser versa. I used Chat GPT a lot to help me troubleshoot, which I don't think help huge amount, until I decided to change the html and wrap the question-section and question-button in a div. Only then, the position work better.
