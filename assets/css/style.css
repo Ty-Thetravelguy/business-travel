@@ -34,7 +34,7 @@ body {
 
 .navbar-nav .nav-item a {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #DDD0C8;
     padding-top: 10px;
 
@@ -65,22 +65,19 @@ body {
     background: linear-gradient(to right, #ffffff00, #DDD0C8);
 }
 
+.question-container {
+    position: absolute;
+}
+
 .question-section {
     font-family: "Bebas Neue", sans-serif;
     font-size: 60px;
-    position: absolute;
-    top: 20%;
-    right: 15px;
     z-index: 1;
     color: #2f4858;
 }
 
-
 .question-button {
     font-family: "Roboto", sans-serif;
-    position: absolute;
-    top: calc(20% + 70px);
-    right: 15px;
     z-index: 1;
     color: #DDD0C8;
     background-color: #2f4858;
@@ -121,7 +118,7 @@ body {
 
 .why-section p {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 
 }
 
@@ -200,20 +197,6 @@ body {
 
 /*--------------------------------- Media queries */
 
-@media (max-width: 375px) {
-    .question-section {
-        font-size: 30px !important;
-        top: 20% !important;
-        right: 10px;
-    }
-
-    .question-button {
-        top: calc(20% + 75px) !important;
-        right: 10px;
-
-    }
-}
-
 @media (max-width: 768px) {
     .navbar-nav .nav-item a {
         font-size: 14px;
@@ -253,21 +236,27 @@ body {
     }
 
     .question-section {
-        font-size: 40px;
-        top: 10%;
+        font-size: 35px;
+        top: 20%;
+
+
     }
 
     .question-button {
-        top: calc(10% + 50px);
-        font-size: 15px;
+        top: calc(20% + 90px);
+
     }
 
     .why-section h3 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .why-section h5 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .why-section p {
+        font-size: 16px;
     }
 
     .contact-hours-info p {
