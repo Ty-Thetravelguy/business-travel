@@ -1,6 +1,6 @@
 /*--------------------------------- General */
 
-.container {
+body {
     margin: 0;
     padding: 0;
 }
@@ -28,7 +28,6 @@
 
 
 .nav-menu {
-    padding: 4px;
     background-color: #2f4858;
 }
 
@@ -80,8 +79,8 @@
     position: relative;
     z-index: 1;
     color: #DDD0C8;
-    background-color: #5A5E72;
-    border-color: #5A5E72;
+    background-color: #2f4858;
+    border-color: #2f4858;
 }
 
 .question-button:hover {
