@@ -42,6 +42,7 @@ body {
 }
 
 .corp-travel {
+    position: relative;
     background: url('../images/corporate-travel.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -51,6 +52,7 @@ body {
 }
 
 .private-jet-travel {
+    position: relative;
     background: url('../images/private-jet.jpg');
     background-position: left;
     background-repeat: no-repeat;
@@ -60,6 +62,7 @@ body {
 }
 
 .marine-travel {
+    position: relative;
     background: url('../images/marine-travel-2.jpeg');
     background-position: right;
     background-repeat: no-repeat;
@@ -69,6 +72,7 @@ body {
 }
 
 .group-travel {
+    position: relative;
     background: url('../images/group-travel.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -78,6 +82,7 @@ body {
 }
 
 .meeting-room {
+    position: relative;
     background: url('../images/meetings.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -87,6 +92,7 @@ body {
 }
 
 .visa-travel {
+    position: relative;
     background: url('../images/visas.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -94,7 +100,6 @@ body {
     width: 250px;
     height: 250px;
 }
-
 
 /*--------------------------------- Colors */
 
@@ -171,17 +176,21 @@ body {
 }
 
 .why-section h3,
-.why-section h5 {
+.why-section h5,
+.expertise-section h3,
+.expertise-text h5 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
 .why-section h3,
 .why-section h5,
-.why-section p {
+.why-section p,
+.expertise-section p {
     color: #2f4858;
 }
 
-.why-section h3 {
+.why-section h3,
+.expertise-section h3 {
     font-size: 50px;
     letter-spacing: 2px;
 }
@@ -192,20 +201,33 @@ body {
 }
 
 .why-section p,
-.what-heading-section p {
+.what-heading-section p,
+.expertise-section p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 
 }
 
-.what-heading-section {
+.what-heading-section,
+.expertise-section h3 {
     color: #2f4858;
 }
 
+.expertise-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
 
-/*--------------------------------- What we do header */
-
-
+.expertise-text h5 {
+    color: #DDD0C8;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
 
 
 
