@@ -396,6 +396,16 @@ body {
         padding-right: 15px;
         padding-left: 15px;
     }
+
+    .hero-img-sustainability {
+        position: relative;
+        background: url('../images/sustainability.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
 }
 
 @media (max-width: 425px) {
