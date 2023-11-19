@@ -199,7 +199,9 @@ body {
 .why-section h5,
 .expertise-section h3,
 .expertise-text h5,
-.sustainability-section h1 {
+.sustainability-section h1,
+.vision-section h3,
+.values-section h3 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -208,12 +210,16 @@ body {
 .why-section p,
 .expertise-section p,
 .sustainability-section h1,
-.sustainability-section p {
+.sustainability-section p,
+.vision-section h3,
+.values-section h3 {
     color: #2f4858;
 }
 
 .why-section h3,
-.expertise-section h3 {
+.expertise-section h3,
+.vision-section h3,
+.values-section h3 {
     font-size: 50px;
     letter-spacing: 2px;
 }
@@ -226,14 +232,18 @@ body {
 .why-section p,
 .what-heading-section p,
 .expertise-section p,
-.sustainability-section p {
+.sustainability-section p,
+.vision-section p,
+.values-content p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 
 }
 
 .what-heading-section,
-.expertise-section h3 {
+.expertise-section h3,
+.vision-section p,
+.values-content p {
     color: #2f4858;
 }
 
@@ -257,18 +267,55 @@ body {
     letter-spacing: 2px;
 }
 
+
+
 /*--------------------------------- Who we are section */
 
-.staff-portrait {
-    display: block;
-    object-fit: cover;
-    object-position: center;
+
+
+.ceo-img,
+.cfo-img,
+.hoops-img,
+.hoaacc-img,
+.hoacc-man-ing,
+.hocom {
+    display: inline-block;
+    position: relative;
     width: 200px;
     height: 200px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
-    margin: 15px auto 0 auto;
-
+    margin: auto;
+    overflow: hidden;
 }
+
+.staff-portrait {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    /* margin-top: 15px; */
+}
+
+.staff-names {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    /* This will ensure it doesn't exceed the image width */
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 5px 0;
+
+    /* Add some padding for text */
+}
+
+/*--------------------------------- Vision and Vlues section */
+
+.values-content {
+    padding: 10px;
+}
+
 
 
 /*--------------------------------- Footer */
