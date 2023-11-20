@@ -21,7 +21,7 @@
 
 .hero-img-what {
     position: relative;
-    background: url('../images/hero-what-we-do-3.jpg');
+    background: url('../images/heror-what-we-do-4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,12 +175,23 @@
     border-radius: 50%;
 }
 
+.hero-contact-us-img {
+    background: url('../images/contact-us-hero.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
 /*--------------------------------- Colors */
 
 .why-section-bg-color,
 .what-heading-bg-color,
 .sustainability-section,
-.who-are-we-section {
+.who-are-we-section
+.bgc-contact {
     background-color: #DDD0C8;
 }
 
