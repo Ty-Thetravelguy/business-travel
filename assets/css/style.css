@@ -1,15 +1,3 @@
-/*--------------------------------- General */
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.what-heading-section h1 {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 70px;
-}
-
 /*--------------------------------- Images */
 
 .hero-img-home {
@@ -33,7 +21,7 @@ body {
 
 .hero-img-what {
     position: relative;
-    background: url('../images/hero-what-we-do-1.jpg');
+    background: url('../images/hero-what-we-do-3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,6 +109,72 @@ body {
     height: 700px;
 }
 
+.ceo-img {
+    background: url('../images/ceo.jpeg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.cfo-img {
+    background: url('../images/cfo.jpeg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.hoops-img {
+    background: url('../images/head-of-ops.jpg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.hoaacc-img {
+    background: url('../images/head-of-accounts.jpeg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.hoacc-man-img {
+    background: url('../images/head-of-account-managment.jpeg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.hocom-img {
+    background: url('../images/head-of-commerrcials.jpeg');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
 /*--------------------------------- Colors */
 
 .why-section-bg-color,
@@ -131,7 +185,18 @@ body {
 }
 
 
-/*--------------------------------- Home */
+/*--------------------------------- General */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.what-heading-section h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+}
+
 
 /*------------- Nav Bar -----------------*/
 
@@ -201,7 +266,8 @@ body {
 .expertise-text h5,
 .sustainability-section h1,
 .vision-section h3,
-.values-section h3 {
+.values-section h3,
+.meet-the-team h1 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -212,19 +278,22 @@ body {
 .sustainability-section h1,
 .sustainability-section p,
 .vision-section h3,
-.values-section h3 {
+.values-section h3,
+.meet-the-team h1 {
     color: #2f4858;
 }
 
 .why-section h3,
 .expertise-section h3,
 .vision-section h3,
-.values-section h3 {
+.values-section h3,
+.meet-the-team h3 {
     font-size: 50px;
     letter-spacing: 2px;
 }
 
-.why-section h5 {
+.why-section h5,
+.staff-names h5 {
     font-size: 30px;
     letter-spacing: 1px;
 }
@@ -234,7 +303,9 @@ body {
 .expertise-section p,
 .sustainability-section p,
 .vision-section p,
-.values-content p {
+.values-content p,
+.staff-names p,
+.meet-the-team p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 
@@ -243,7 +314,8 @@ body {
 .what-heading-section,
 .expertise-section h3,
 .vision-section p,
-.values-content p {
+.values-content p,
+.meet-the-team p {
     color: #2f4858;
 }
 
@@ -263,51 +335,53 @@ body {
     padding-top: 10px;
 }
 
+
+
+.staff-names h5,
+.staff-names p {
+    color: #DDD0C8;
+}
+
+/*--------------------------------- Sustainability Section*/
+
+.sustainability-section {
+    padding: 30px 0 30px 0;
+}
+
 .sustainability-section h1 {
+    font-size: 70px;
     letter-spacing: 2px;
+    padding-bottom: 10px;
 }
 
 
 
 /*--------------------------------- Who we are section */
 
-
-
-.ceo-img,
-.cfo-img,
-.hoops-img,
-.hoaacc-img,
-.hoacc-man-ing,
-.hocom {
-    display: inline-block;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    overflow: hidden;
-}
-
-.staff-portrait {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    /* margin-top: 15px; */
+.meet-the-team h1 {
+    font-size: 70px;
+    letter-spacing: 2px;
 }
 
 .staff-names {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    width: 100%;
-    /* This will ensure it doesn't exceed the image width */
-    background: rgba(0, 0, 0, 0.5);
+    bottom: -60px;
+    right: -10px;
+    width: 270px;
+    background: rgba(47, 72, 88, 0.8);
     text-align: center;
     padding: 5px 0;
+}
 
-    /* Add some padding for text */
+.meet-the-team {
+    padding: 70px 30px 0 30px;
+}
+
+
+
+.vision-section,
+.values-section {
+    padding: 70px 30px 0 30px;
 }
 
 /*--------------------------------- Vision and Vlues section */
@@ -315,6 +389,8 @@ body {
 .values-content {
     padding: 10px;
 }
+
+
 
 
 
@@ -474,6 +550,17 @@ body {
         width: 100%;
         height: 300px;
     }
+
+    .hero-img-who {
+        position: relative;
+        background: url('../images/who-are-we-2.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+
 }
 
 @media (max-width: 425px) {
