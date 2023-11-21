@@ -190,8 +190,8 @@
 .why-section-bg-color,
 .what-heading-bg-color,
 .sustainability-section,
-.who-are-we-section
-.bgc-contact {
+.who-are-we-section,
+.contact-section-bg-color {
     background-color: #DDD0C8;
 }
 
@@ -278,7 +278,8 @@ body {
 .sustainability-section h1,
 .vision-section h3,
 .values-section h3,
-.meet-the-team h1 {
+.meet-the-team h1,
+.contact-section h1 {
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -290,8 +291,14 @@ body {
 .sustainability-section p,
 .vision-section h3,
 .values-section h3,
-.meet-the-team h1 {
+.meet-the-team h1,
+.contact-section h1 {
     color: #2f4858;
+}
+
+.contact-section h1 {
+    font-size: 70px;
+    letter-spacing: 2px;
 }
 
 .why-section h3,
@@ -369,6 +376,10 @@ body {
 
 /*--------------------------------- Who we are section */
 
+.who-are-we-section {
+    background-color: #DDD0C8;
+}
+
 .meet-the-team h1 {
     font-size: 70px;
     letter-spacing: 2px;
@@ -401,8 +412,71 @@ body {
     padding: 10px;
 }
 
+/*--------------------------------- Contact us */
 
+{
 
+}
+
+.name,
+.enquiry-type,
+.email,
+.contact-number,
+.company-name,
+.message {
+    border: #A69199;
+    background-color: #A69199;
+    color: #2f4858;
+    border-style: solid;
+}
+
+.name::placeholder,
+.email::placeholder,
+.contact-number::placeholder,
+.company-name::placeholder,
+.message::placeholder {
+    color: #2f4858;
+    font-style: italic;
+}
+
+select .option {
+    color: #2f4858;
+    font-style: italic;
+}
+
+.submit-butt button {
+    color: #DDD0C8;
+    background-color: #2f4858;
+    border-color: #2f4858;
+}
+
+.submit-button:hover {
+    border-color: #2f4858;
+    border-style: solid;
+    color: #2f4858;
+}
+
+.address h5 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #2f4858;
+}
+
+.address p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2f4858;
+}
+
+.phone {
+    padding-top: 15px;
+}
+
+.address-section {
+    padding-bottom: 70px;
+}
 
 
 /*--------------------------------- Footer */

@@ -18,12 +18,13 @@
       src="https://kit.fontawesome.com/39153677d4.js"
       crossorigin="anonymous"
     ></script>
+  
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>
       Hudson Business Travel | Navigating Your Corporate Travel World
     </title>
   </head>
-  <body>
+  <body class="contact-section-bg-color">
   <header>
     <div class="container-fluid sticky-top nav-menu">
       <!--navigation menu section -->
@@ -81,21 +82,20 @@
     </div>
   </header>
 <section>
-  <div class="container-fluid bgc-contact ">
-    <div class="row">
-      <div class="col">
+  <div class="container-fluid ">
+    <div class="row justify-content-center pt-5 pb-5">
+      <div class="col-lg-4 contact-section">
         <h1 class="text-center">Contact Us</h1>
         <div class="center-form">
           <form action="/submit-form" method="post">
-            
             <!-- Name Field -->
-            <div class="form-group mb-4"></div>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Name:" required>
+            <div class="form-group mb-4">
+            <input type="text" class="form-control name" id="name" name="name" placeholder="Name:" required>
             </div>
             <!-- Type of Enquiry Dropdown -->
-            <div class="form-group mb-4"></div>
-            <select name="enquiry-type" class="form-select" id="enquiryType">
-                <option selected>Type of Enquiry</option>
+            <div class="form-group mb-4 mt-4">
+            <select name="enquiry-type" class="form-select enquiry-type" id="enquiry-type">
+                <option selected class="option">Type of Enquiry</option>
                 <option value="new-business">New Business Enquiry</option>
                 <option value="existing-client">Existing Client</option>
                 <option value="supplier">I'm a Supplier</option>
@@ -104,25 +104,54 @@
             </div>
             <!-- Email Field -->
             <div class="form-group mb-4 mt-4">
-            <input type="email" class="form-control" id="email" name="email" placeholder="Emaill Address:" required>
+            <input type="email" class="form-control email" id="email" name="email" placeholder="Emaill Address:" required>
             </div>
             <!-- Contact Number Field -->
             <div class="form-group mb-4">
-            <input type="tel" class="form-control" id="contactNumber" name="contactNumber" placeholder="Contact number:">
+            <input type="tel" class="form-control contact-number" id="contact-number" name="contact-number" placeholder="Contact number:">
+            </div>
+            <!-- Company Name Field -->
+            <div class="form-group mb-4">
+            <input type="text" class="form-control company-name" id="company-name" name="company-name" placeholder="Company Name:">
             </div>
             <!-- Text Input Box (Message) -->
             <div class="form-group mb-4">
-            <textarea id="message" class="form-control" name="message" rows="10" cols="50" placeholder="Your Message:"></textarea>
+            <textarea id="message" class="form-control message" name="message" rows="10" cols="50" placeholder="Your Message:"></textarea>
             </div>
             <!-- Submit Button -->
-            <div class="form-group mb-4">
-            <button class="btn btn-primary" type="submit">Submit</button>
+            <div class="form-group mb-4 submit-butt">
+            <button class="btn btn-lg submit-button" type="submit">Submit</button>
             </div>
-        </form>
-        </div>
+          </form>
+        </div>   
       </div>
     </div>
   </div>
+  <div class="container">
+    <div class="row justify-content-center address-section">
+      <div class="col-lg-4 address">
+        <h5>Location:</h5>
+        <p>WeWork - Office Space & Coworking</p>
+        <p>7th Floor</p>
+        <p>120 Moorgate,</p>
+        <p>London </p>
+        <p>EC2M 6UR</p>
+        <p class="phone">Phone: <span>+44 (0) 20 3695 7895</span></p>
+        <p>Email: action@hudsontravel.co.uk</p>
+      </div>
+      <div class="col-lg-4">
+        <iframe
+        width="400"
+        height="220"
+        style="border:0"
+        loading="lazy"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDlieRU7tvJy4k73vlgbHfKDdczU6n4l0g&q=WeWork+Office+Space+Coworking,120+Moorgate,London,EC2M+6UR">
+      </iframe>
+      </div>
+    </div>
+  </div>
+  
+  
   
 </section>
   
