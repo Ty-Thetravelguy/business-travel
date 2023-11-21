@@ -185,7 +185,7 @@
     height: 500px;
 }
 
-/*--------------------------------- Colors */
+/*--------------------------------- Background Colors */
 
 .why-section-bg-color,
 .what-heading-bg-color,
@@ -203,10 +203,74 @@ body {
     padding: 0;
 }
 
-.what-heading-section h1 {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 70px;
+.why-section h3,
+.why-section h5,
+.expertise-section h3,
+.expertise-text h5,
+.what-heading-section h1
+.sustainability-section h1,
+.vision-section h3,
+.values-section h3,
+.meet-the-team h1,
+.contact-section h1 {
+    font-family: 'Bebas Neue', sans-serif;
 }
+
+.why-section h3,
+.why-section h5,
+.why-section p,
+.expertise-section p,
+.sustainability-section h1,
+.sustainability-section p,
+.vision-section h3,
+.values-section h3,
+.meet-the-team h1,
+.contact-section h1 {
+    color: #2f4858;
+}
+
+.what-heading-section h1,
+.contact-section h1 {
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+.why-section h3,
+.expertise-section h3,
+.vision-section h3,
+.values-section h3,
+.meet-the-team h3 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.why-section h5,
+.staff-names h5 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.why-section p,
+.what-heading-section p,
+.expertise-section p,
+.sustainability-section p,
+.vision-section p,
+.values-content p,
+.staff-names p,
+.meet-the-team p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+
+.what-heading-section,
+.expertise-section h3,
+.vision-section p,
+.values-content p,
+.meet-the-team p {
+    color: #2f4858;
+}
+
 
 
 /*------------- Nav Bar -----------------*/
@@ -269,72 +333,6 @@ body {
 
 .why-section {
     margin: 0;
-}
-
-.why-section h3,
-.why-section h5,
-.expertise-section h3,
-.expertise-text h5,
-.sustainability-section h1,
-.vision-section h3,
-.values-section h3,
-.meet-the-team h1,
-.contact-section h1 {
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-.why-section h3,
-.why-section h5,
-.why-section p,
-.expertise-section p,
-.sustainability-section h1,
-.sustainability-section p,
-.vision-section h3,
-.values-section h3,
-.meet-the-team h1,
-.contact-section h1 {
-    color: #2f4858;
-}
-
-.contact-section h1 {
-    font-size: 70px;
-    letter-spacing: 2px;
-}
-
-.why-section h3,
-.expertise-section h3,
-.vision-section h3,
-.values-section h3,
-.meet-the-team h3 {
-    font-size: 50px;
-    letter-spacing: 2px;
-}
-
-.why-section h5,
-.staff-names h5 {
-    font-size: 30px;
-    letter-spacing: 1px;
-}
-
-.why-section p,
-.what-heading-section p,
-.expertise-section p,
-.sustainability-section p,
-.vision-section p,
-.values-content p,
-.staff-names p,
-.meet-the-team p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-
-}
-
-.what-heading-section,
-.expertise-section h3,
-.vision-section p,
-.values-content p,
-.meet-the-team p {
-    color: #2f4858;
 }
 
 .expertise-text {
