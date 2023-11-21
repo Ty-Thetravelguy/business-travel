@@ -207,7 +207,7 @@ body {
 .why-section h5,
 .expertise-section h3,
 .expertise-text h5,
-.what-heading-section h1
+.what-heading-section h1,
 .sustainability-section h1,
 .vision-section h3,
 .values-section h3,
@@ -352,7 +352,6 @@ body {
 }
 
 
-
 .staff-names h5,
 .staff-names p {
     color: #DDD0C8;
@@ -411,10 +410,6 @@ body {
 }
 
 /*--------------------------------- Contact us */
-
-{
-
-}
 
 .name,
 .enquiry-type,

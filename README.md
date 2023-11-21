@@ -8,22 +8,22 @@ At the core of Hudson Business Travel’s ethos is a relentless drive for innova
 
 ### Hudson Business Travel - Business Needs
 
-1.	Brand Awareness: In today's digital era, an online presence is crucial for reaching a wider audience. A website increases brand visibility and recognition, making Hudson Business Travel known to potential clients who rely on the Internet for corporate travel solutions. It's essential for expanding the company's reach beyond traditional boundaries.
-2.	Professional Image: A website is often the first point of interaction between a company and its potential clients. A well-designed website conveys a sense of professionalism and legitimacy. It reinforces Hudson Business Travel's image as a reliable and established player in the corporate travel sector, which is vital for building trust with prospective clients.
-3.	Informational Resource: Providing comprehensive information about services, expertise, and company values is vital to engaging potential clients. A website acts as an always-accessible repository of information, allowing Hudson Business Travel to effectively communicate its offerings, ethos, and strengths, which is essential in informing and attracting potential clients.
-4.	First Point of Contact: The website is a primary interface for initial enquiries. In a business where first impressions matter, a well-crafted website serves as the initial handshake, offering a glimpse into what Hudson Business Travel is about and how it operates. This is crucial for establishing a positive initial rapport with potential clients.
-5.	Marketing and Promotion: A website is a powerful marketing tool. It allows Hudson Business Travel to showcase its services and highlight its unique selling points or achievements. In a competitive market, this platform is essential for standing out and effectively communicating the value proposition to potential clients.
-6.	Competitive Edge: A strong online presence is no longer just an option but a necessity for staying competitive. A website ensures that Hudson Business Travel keeps up with or stays ahead of competitors, demonstrating its commitment to modern business practices and meeting the expectations of digitally savvy clients.
+1. Brand Awareness: In today's digital era, an online presence is crucial for reaching a wider audience. A website increases brand visibility and recognition, making Hudson Business Travel known to potential clients who rely on the Internet for corporate travel solutions. It's essential for expanding the company's reach beyond traditional boundaries.
+2. Professional Image: A website is often the first point of interaction between a company and its potential clients. A well-designed website conveys a sense of professionalism and legitimacy. It reinforces Hudson Business Travel's image as a reliable and established player in the corporate travel sector, which is vital for building trust with prospective clients.
+3. Informational Resource: Providing comprehensive information about services, expertise, and company values is vital to engaging potential clients. A website acts as an always-accessible repository of information, allowing Hudson Business Travel to effectively communicate its offerings, ethos, and strengths, which is essential in informing and attracting potential clients.
+4. First Point of Contact: The website is a primary interface for initial enquiries. In a business where first impressions matter, a well-crafted website serves as the initial handshake, offering a glimpse into what Hudson Business Travel is about and how it operates. This is crucial for establishing a positive initial rapport with potential clients.
+5. Marketing and Promotion: A website is a powerful marketing tool. It allows Hudson Business Travel to showcase its services and highlight its unique selling points or achievements. In a competitive market, this platform is essential for standing out and effectively communicating the value proposition to potential clients.
+6. Competitive Edge: A strong online presence is no longer just an option but a necessity for staying competitive. A website ensures that Hudson Business Travel keeps up with or stays ahead of competitors, demonstrating its commitment to modern business practices and meeting the expectations of digitally savvy clients.
 
 ### User Needs
 
-1.	Understanding of Services Offered: Users require clear, concise information about the services provided by Hudson Business Travel, such as types of travel management services and support provided.
-2.	Company Insight: Potential clients and partners look for insights into the company’s ethos, history, and the team’s expertise to gauge reliability and fit.
-3.	Contact Information: Easy access to contact information is crucial for users considering Hudson Business Travel’s services.
-4.	Testimonials and Case Studies: Users often seek proof of excellence and reliability through client testimonials, case studies, or success stories.
-5.	Simple Navigation: A user-friendly website design with simple navigation is essential, allowing users to quickly find the information they need.
-6.	Corporate Identity and Branding: Users expect the website to reflect the corporate identity of Hudson Business Travel, with professional design and branding that aligns with the company’s image and market position.
-7.	Sustainability Commitment: Hudson Business Travel wants to showcase its commitment to eco-friendly travel, aligning with industry trends towards environmental responsibility and positioning itself as a progressive, eco-conscious leader in the sector.
+1. Understanding of Services Offered: Users require clear, concise information about the services provided by Hudson Business Travel, such as types of travel management services and support provided.
+2. Company Insight: Potential clients and partners look for insights into the company’s ethos, history, and the team’s expertise to gauge reliability and fit.
+3. Contact Information: Easy access to contact information is crucial for users considering Hudson Business Travel’s services.
+4. Testimonials and Case Studies: Users often seek proof of excellence and reliability through client testimonials, case studies, or success stories.
+5. Simple Navigation: A user-friendly website design with simple navigation is essential, allowing users to quickly find the information they need.
+6. Corporate Identity and Branding: Users expect the website to reflect the corporate identity of Hudson Business Travel, with professional design and branding that aligns with the company’s image and market position.
+7. Sustainability Commitment: Hudson Business Travel wants to showcase its commitment to eco-friendly travel, aligning with industry trends towards environmental responsibility and positioning itself as a progressive, eco-conscious leader in the sector.
 
 ### Design Process
 
@@ -56,6 +56,6 @@ After adding the nav menu, the image moved down but the fade didn't. I used goog
 
 I had massive issues with creating media queries. I really struggled to the content to look good on smaller screens, in particual with the question-section and question-button. The position on smaller screans were good on one size, and not great as it increased, or viser versa. I used Chat GPT a lot to help me troubleshoot, which I don't think help huge amount, until I decided to change the html and wrap the question-section and question-button in a div. Only then, the position work better.
 
-I had issues with the meet the team section and the photos i was adding. I used Chat GPT but still coudln't get it to look how i wanted it to. I intially used the <img> but after not be able to get the positing correct, i moved the imgages to the sytle.css file. I copied what i did for the what we do section and change the border raides so the images were round.
+I had issues with the meet the team section and the photos i was adding. I used Chat GPT but still coudln't get it to look how i wanted it to. I intially used the img selector but after not be able to get the positing correct, i moved the imgages to the sytle.css file. I copied what i did for the what we do section and change the border raides so the images were round.
 
-On the contact us page, I wanted to add a google maps in <iframe>, but very quickly released that it didn't work as planed. Are doing some research, i found that i needed an google api which I looked into, created one and added to my page.
+On the contact us page, I wanted to add a google maps in iframe selector, but very quickly released that it didn't work as planed. Are doing some research, i found that i needed an google api which I looked into, created one and added to my page.
